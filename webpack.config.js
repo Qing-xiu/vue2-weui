@@ -1,8 +1,10 @@
 var path = require('path')
 var webpack = require('webpack')
+var autoprefixer = require('autoprefixer')
 
 module.exports = {
   entry: './src/main.js',
+  
   output: {
     path: path.resolve(__dirname, './dist'),
     publicPath: '/dist/',
@@ -31,6 +33,11 @@ module.exports = {
       }
     ]
   },
+  plugins: [new webpack.LoaderOptionsPlugin({
+    vue: {
+      postcss: [autoprefixer({ browsers: ['last 8 versions'] })]
+    }
+  })],
   resolve: {
     alias: {
       'vue$': 'vue/dist/vue.common.js'
