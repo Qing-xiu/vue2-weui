@@ -4,6 +4,7 @@
 			<btn @click="showSuccessToast">成功提示</btn>
 			<btn @click="showLoadingToast">加载中提示</btn>
 			<btn @click="showLoading3">手动控制3s后关闭</btn>
+			<btn @click="showLoading4">关闭后回调</btn>
 		</btn-list>
 	</section>
 </template>
@@ -29,6 +30,11 @@
 				setTimeout(() => {
 					vm.close()
 				}, 3000)
+			},
+			showLoading4 () {
+				Toast.loading('请求成功').then(() => {
+					alert('end')
+				})
 			}
 		}
 	}
