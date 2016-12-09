@@ -2,6 +2,8 @@
 	<section class="page index-page">
 		<router-link class="item" to="/btn">btn</router-link>
 		<router-link class="item" to="/action_sheet">action-sheet</router-link>
+		<router-link class="item" to="/dialog">Dialog</router-link>
+		<router-link class="item" to="/toast">Toast</router-link>
 	</section>
 </template>
 
