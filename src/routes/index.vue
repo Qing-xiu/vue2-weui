@@ -4,6 +4,9 @@
 		<router-link class="item" to="/action_sheet">action-sheet</router-link>
 		<router-link class="item" to="/dialog">Dialog</router-link>
 		<router-link class="item" to="/toast">Toast</router-link>
+		<router-link class="item" to="/switch">Switch</router-link>
+		<router-link class="item" to="/cell">Cell</router-link>
+		<router-link class="item" to="/checkbox">Checkbox</router-link>
 	</section>
 </template>
 
