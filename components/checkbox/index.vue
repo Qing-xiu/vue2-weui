@@ -1,14 +1,20 @@
 <template>
-	<span class="weui-cells_checkbox">
-		<input @change="this.$emit('input', $event.target.checked)" type="checkbox" class="weui-check">
+	<div class="weui-cells_checkbox">
+		<input @change="handle($event.target.checked)" type="checkbox" class="weui-check">
 		<i class="weui-icon-checked"></i>
-	</span>
+	</div>
 </template>
 
 <script>
 	export default {
 		props: {
 			value: Boolean
+		},
+		methods: {
+			handle (checked) {
+				console.log(123)
+				console.log(checked)
+			}
 		}
 	}
 </script>

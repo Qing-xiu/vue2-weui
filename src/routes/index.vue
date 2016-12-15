@@ -7,6 +7,7 @@
 		<router-link class="item" to="/switch">Switch</router-link>
 		<router-link class="item" to="/cell">Cell</router-link>
 		<router-link class="item" to="/checkbox">Checkbox</router-link>
+		<router-link class="item" to="/picker">Picker</router-link>
 	</section>
 </template>
 

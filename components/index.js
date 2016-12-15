@@ -12,6 +12,7 @@ import CellHeader from './cell/cell_header.vue'
 import CellBody from './cell/cell_body.vue'
 import CellFooter from './cell/cell_footer.vue'
 import Checkbox from './checkbox/index.vue'
+import Picker from './picker/index.vue'
 
 export {
 	Btn,
@@ -27,5 +28,6 @@ export {
 	CellHeader,
 	CellBody,
 	CellFooter,
-	Checkbox
+	Checkbox,
+	Picker
 }

@@ -6,6 +6,7 @@ import Toast from './toast.vue'
 import Switch from './switch.vue'
 import Cell from './cell.vue'
 import Checkbox from './checkbox.vue'
+import Picker from './picker.vue'
 
 const routes = [
 	{path: '/', component: Index},
@@ -15,7 +16,8 @@ const routes = [
 	{path: '/toast', component: Toast},
 	{path: '/switch', component: Switch},
 	{path: '/cell', component: Cell},
-	{path: '/checkbox', component: Checkbox}
+	{path: '/checkbox', component: Checkbox},
+	{path: '/picker', component: Picker}
 ]
 
 export default routes
