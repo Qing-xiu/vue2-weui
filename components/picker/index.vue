@@ -7,6 +7,7 @@
 			</div>
 			<div class="weui-picker__bd">
 				<picker-group></picker-group>
+				<picker-group></picker-group>
 			</div>
 		</div>
 	</transition>
